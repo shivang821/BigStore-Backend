@@ -63,6 +63,7 @@ async function deleteProduct(req, res) {
 router.route('/product').get(getProducts)
 async function getProducts(req, res) {
     try {
+        console.log('reached');
         let {category,gt,lt,sort } = req.query;
         if(typeof(category)==='string'){
             let products;

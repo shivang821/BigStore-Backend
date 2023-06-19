@@ -1,2 +1,13 @@
 config.env
 .env
+
+
+
+
+*config.env
+*.env
+node_modules/
+/node_modules
+bigStoreBackend/config/
+bigStoreBackend/config
+/config.env
