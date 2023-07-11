@@ -1,13 +1,5 @@
 config.env
 .env
+node_modules
 
 
-
-
-*config.env
-*.env
-node_modules/
-server/node_modules
-bigStoreBackend/config/
-bigStoreBackend/config
-/config.env

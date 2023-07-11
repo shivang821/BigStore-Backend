@@ -21,12 +21,12 @@ app.use(productRoute)
 app.use(userRoute)
 app.use(testRoute)
 app.use(orderRoute)
-app.use(cors({
-        origin: process.env.FRONTEND_URL,
-        methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
-        credentials: true
-    }))
-    // app.use(cors())
+// app.use(cors({
+//         origin: process.env.FRONTEND_URL,
+//         methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
+//         credentials: true
+//     }))
+    app.use(cors())
  
 
 cloudinary.config({
